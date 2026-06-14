@@ -1,0 +1,11 @@
+{
+  "name": "observiz-sdk",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "example-api"
+  ],
+  "scripts": {
+    "build": "bun run --filter '@observiz/core' build && bun run --filter '@observiz/traces' build && bun run --filter '@observiz/logs' build && bun run --filter '@observiz/metrics' build && bun run --filter '@observiz/sdk' build"
+  }
+}
