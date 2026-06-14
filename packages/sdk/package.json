@@ -1,0 +1,22 @@
+{
+  "name": "@observiz/sdk",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "description": "Plug-and-play OpenTelemetry observability for Bun/Node APIs",
+  "keywords": ["opentelemetry", "observability", "tracing", "logging", "metrics", "bun", "node"],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@observiz/core": "^0.1.0",
+    "@observiz/logs": "^0.1.0",
+    "@observiz/metrics": "^0.1.0",
+    "@observiz/traces": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
