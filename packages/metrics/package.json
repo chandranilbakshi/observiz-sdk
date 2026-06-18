@@ -1,15 +1,19 @@
 {
   "name": "@observiz/metrics",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.10.6",
-    "@observiz/core": "^0.1.0",
+    "@observiz/core": "^0.1.1",
     "@opentelemetry/api": "^1.9.1",
     "@opentelemetry/exporter-metrics-otlp-grpc": "^0.51.1",
     "@opentelemetry/sdk-metrics": "^1.24.0"
